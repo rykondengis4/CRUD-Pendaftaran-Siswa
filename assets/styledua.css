@@ -1,0 +1,59 @@
+body {
+  background-image: url(diagonal_striped_brick.webp);
+}
+
+.container {
+  background-color: white;
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container table {
+  text-align: center;
+  margin: auto;
+  width: 760px;
+}
+
+.navbar {
+  max-width: 780px;
+  display: flex;
+  justify-content: end;
+}
+
+nav {
+  width: 120px;
+  height: 50px;
+  background-color: lightskyblue;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+nav a:active {
+  color: black;
+}
+
+nav:active {
+  border: 1px solid black;
+}
+
+.tabelpendaftar {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}

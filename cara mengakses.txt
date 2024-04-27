@@ -1,0 +1,3 @@
+cara mengakses di browser:
+
+http://localhost/vsga_pendaftaran_siswa/
